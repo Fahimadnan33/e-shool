@@ -1,0 +1,256 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+       /* header start */
+       header{
+        padding: 5px 0;
+    }
+    .logo {
+        width: 175px;
+    }
+    .menu ul li a {
+        margin-top: 5px;
+        padding: 0 5px !important;
+    }
+    .s_btn {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+       /* banner start  */
+       .banner {
+        padding-bottom: 60px;
+    }
+       .b_contant {
+        text-align: center;
+    }
+    .b_h1 {
+        padding: 0 px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .b_p2 {
+        padding: 0;
+        line-height: 30px;
+    }
+    .b_img {
+        margin-bottom: 30px !important;
+        padding: 0 0px;
+    }
+    .cp {
+        padding-bottom: 60px;
+    }
+      /* course start  */
+      .c_h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .c_single {
+        margin: 40px 0px 0;
+        padding: 20px 15px 25px;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right:0;
+    }
+   
+    .c_left ul li img, .c_right ul li img {
+        width: 20px;
+    }
+    .c_left ul li span, .c_right ul li span{
+        font-size: 15px;
+        font-weight: 400;
+    }
+     /* testmoni  */
+     .t_img img {
+        padding: 0 50px 20px;
+    }
+    .t_p p {
+        text-align: center;
+    }
+    .t_itame{
+        margin-top: 30px;
+       }
+
+    /* footer top start  */
+    .footer_top {
+        padding: 55px 0 20px;
+        text-align: center;
+    }
+    .ft_details {
+        margin-bottom: 35px;
+        padding-right: 0;
+    }
+    .ft_link {
+        margin-bottom: 35px;
+    }
+
+
+
+ }
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+      /* header start */
+      header{
+        padding: 5px 0;
+    }
+    .logo {
+        width: 175px;
+    }
+    .menu ul li a {
+        margin-top: 5px;
+        padding: 0 5px !important;
+    }
+    .s_btn {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+       /* banner start  */
+       .banner {
+        padding-bottom: 60px;
+    }
+       .b_contant {
+        text-align: center;
+    }
+    .b_h1 {
+        padding: 0 70px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .b_p2 {
+        padding: 0 50px;
+        line-height: 30px;
+    }
+    .b_img {
+        margin-bottom: 30px !important;
+        padding: 0 50px;
+    }
+     /* feature start  */
+     .cp {
+        padding-bottom: 60px;
+    }
+    /* course start  */
+    .c_h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .c_single {
+        margin: 40px 80px 0;
+    }
+    /* testmoni  */
+    .t_img img {
+        padding: 0 140px 20px;
+    }
+    .t_p p {
+        text-align: center;
+    }
+    .t_itame{
+        margin-top: 40px;
+    }
+     /* footer top  */
+        .footer_top{
+            text-align: center;
+        }
+        .ft_details {
+            margin-bottom: 35px;
+            padding: 0 70px;
+        }
+    
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+     /* header start */
+     header{
+        padding: 5px 0;
+    }
+    .menu ul li a {
+        margin-top: 5px;
+        padding: 0 5px !important;
+    }
+    .s_btn {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+   
+    /* banner start  */
+    
+    .b_contant {
+        text-align: center;
+    }
+    .b_h1 {
+        padding: 0 140px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .b_p2 {
+        padding: 0 110px;
+        line-height: 30px;
+    }
+    .b_img {
+        margin-bottom: 30px !important;
+        padding: 0 130px;
+    }
+    /* feature start  */
+    .cp {
+        padding-bottom: 80px;
+    }
+    /* course  */ 
+    .c_single {
+    margin: 40px 130px 0;
+   }
+   /* tesmoni  */
+   .t_itame{
+    margin-top: 40px;
+   }
+    /* footer top  */
+    .footer_top{
+        text-align: center;
+    }
+    .ft_details {
+        margin-bottom: 35px;
+        padding: 0 80px;
+        color: #fff;
+        line-height: 30px;
+    }
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* course  */
+    .list-inline-item:not(:last-child) {
+        margin-right:0;
+    }
+    .c_single {
+        padding: 20px 15px 25px;
+    }
+    .c_left ul li img, .c_right ul li img {
+        width: 20px;
+    }
+    .c_left ul li span, .c_right ul li span{
+        font-size: 15px;
+        font-weight: 400;
+    }
+ 
+    
+    
+   
+   }
+
+
+/*extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* future */
+    .f_single {
+        margin-top: 40px;
+        padding: 55px 0 60px;
+    }
+    /* footer top  */
+    ft_details {
+        padding-right: 130px;
+    }
+}
